@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
+  s.platform       = :tvos, "9.2"
 
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
   s.source_files   = 'ios/RNIdleTimer/*.{h,m}'
